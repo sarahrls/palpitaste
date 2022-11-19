@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
 
 :root{
-   --main-color:#4834d4;
+   --main-color:#846434;
    --red:#e74c3c;
-   --orange:#f39c12;
-   --black:#34495e;
+   --orange:#c4821d;
+   --black:#5f3714;
    --white:#fff;
    --light-bg:#f5f5f5;
    --light-color:#999;
@@ -125,7 +125,7 @@ section{
    margin-bottom: 2rem;
    text-transform: capitalize;
    color:var(--black);
-   font-size: 3rem;
+   font-size: 4rem;
 }
 
 .empty{
@@ -219,7 +219,7 @@ section{
 }
 
 .header .flex .navbar a:hover{
-   color:var(--main-color);
+   color:#846434;
 }
 
 .header .flex .icons > *{

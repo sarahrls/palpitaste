@@ -88,14 +88,13 @@ if(isset($_GET['delete'])){
 
    <form action="" method="POST" enctype="multipart/form-data">
       <h3>add product</h3>
-      <input type="text" required placeholder="enter product name" name="name" maxlength="100" class="box">
-      <input type="number" min="0" max="9999999999" required placeholder="enter product price" name="price" onkeypress="if(this.value.length == 10) return false;" class="box">
+      <input type="text" required placeholder="Enter Product Name" name="name" maxlength="100" class="box">
+      <input type="number" min="0" max="9999999999" required placeholder="Enter Product Price" name="price" onkeypress="if(this.value.length == 10) return false;" class="box">
       <select name="category" class="box" required>
-         <option value="" disabled selected>select category --</option>
-         <option value="main dish">main dish</option>
-         <option value="fast food">fast food</option>
-         <option value="drinks">drinks</option>
-         <option value="desserts">desserts</option>
+         <option value="" disabled selected>Select Category --</option>
+         <option value="main dish">Drinks</option>
+         <option value="fast food">Bread and Pastry</option>
+         <option value="drinks">Pasta</option>
       </select>
       <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png, image/webp" required>
       <input type="submit" value="add product" name="add_product" class="btn">
