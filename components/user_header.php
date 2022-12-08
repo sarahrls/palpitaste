@@ -16,7 +16,7 @@ if(isset($message)){
    <section class="flex">
 
 
-      <a href="home.php" class="logo"> Palpitaste </a>
+      <a href="home.php" class="logo"></a>
 
       <a href="home.php" class="logo" ><img src="components/img/logoo.png" ></a>
 

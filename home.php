@@ -20,7 +20,7 @@ include 'components/add_cart.php';
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>home</title>
+   <title>Palpitaste-Home</title>
 
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
@@ -46,33 +46,33 @@ include 'components/add_cart.php';
          <div class="swiper-slide slide">
             <div class="content">
                <span>Order Online</span>
-               <h3>delicious pizza</h3>
+               <h3>Tasty Coffee</h3>
                <a href="menu.html" class="btn">see menus</a>
             </div>
             <div class="image">
-               <img src="images/home-img-1.png" alt="">
+               <img src="images/cof.png" alt="">
             </div>
          </div>
 
          <div class="swiper-slide slide">
             <div class="content">
-               <span>order online</span>
-               <h3>chezzy hamburger</h3>
+               <span>Order Online</span>
+               <h3>chezzy pasta</h3>
                <a href="menu.html" class="btn">see menus</a>
             </div>
             <div class="image">
-               <img src="images/home-img-2.png" alt="">
+               <img src="images/past.png" alt="">
             </div>
          </div>
 
          <div class="swiper-slide slide">
             <div class="content">
-               <span>order online</span>
-               <h3>rosted chicken</h3>
+               <span>Order Online</span>
+               <h3>Delicious Coffee</h3>
                <a href="menu.html" class="btn">see menus</a>
             </div>
             <div class="image">
-               <img src="images/home-img-3.png" alt="">
+               <img src="images/expresso.png" alt="">
             </div>
          </div>
 
@@ -91,22 +91,22 @@ include 'components/add_cart.php';
    <div class="box-container">
 
       <a href="category.php?category=fast food" class="box">
-         <img src="images/cat-1.png" alt="">
+         <img src="images/coffee.png" alt="">
          <h3>Coffee</h3>
       </a>
 
       <a href="category.php?category=main dish" class="box">
-         <img src="images/cat-2.png" alt="">
+         <img src="images/Frappe.png" alt="">
          <h3>Frappes</h3>
       </a>
 
       <a href="category.php?category=drinks" class="box">
-         <img src="images/cat-3.png" alt="">
+         <img src="images/bakery.png" alt="">
          <h3>Crepes/Pastry</h3>
       </a>
 
       <a href="category.php?category=desserts" class="box">
-         <img src="images/cat-4.png" alt="">
+         <img src="images/spaghetti.png" alt="">
          <h3>Pasta</h3>
       </a>
 
@@ -140,7 +140,7 @@ include 'components/add_cart.php';
          <a href="category.php?category=<?= $fetch_products['category']; ?>" class="cat"><?= $fetch_products['category']; ?></a>
          <div class="name"><?= $fetch_products['name']; ?></div>
          <div class="flex">
-            <div class="price"><span>$</span><?= $fetch_products['price']; ?></div>
+            <div class="price"><span>₱</span><?= $fetch_products['price']; ?></div>
             <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
          </div>
       </form>

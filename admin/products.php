@@ -94,9 +94,10 @@ if(isset($_GET['delete'])){
       <input type="number" min="0" max="9999999999" required placeholder="Enter Product Price" name="price" onkeypress="if(this.value.length == 10) return false;" class="box">
       <select name="category" class="box" required>
          <option value="" disabled selected>Select Category --</option>
-         <option value="main dish">Drinks</option>
-         <option value="fast food">Bread and Pastry</option>
-         <option value="drinks">Pasta</option>
+         <option value="Coffee">Coffee</option>
+         <option value="Frappes">Frappes</option>
+         <option value="Cremes&Pastry">Crepes and Pastry</option>
+         <option value="Pasta">Pasta</option>
       </select>
        <select name="sizes" class="box" required>
          <option value="" disabled selected>Select Sizes --</option>
