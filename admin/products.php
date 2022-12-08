@@ -18,6 +18,8 @@ if(isset($_POST['add_product'])){
    $price = filter_var($price, FILTER_SANITIZE_STRING);
    $category = $_POST['category'];
    $category = filter_var($category, FILTER_SANITIZE_STRING);
+    $sizes = $_POST['sizes'];
+   $sizes = filter_var($sizes, FILTER_SANITIZE_STRING);
 
    $image = $_FILES['image']['name'];
    $image = filter_var($image, FILTER_SANITIZE_STRING);
@@ -36,8 +38,8 @@ if(isset($_POST['add_product'])){
       }else{
          move_uploaded_file($image_tmp_name, $image_folder);
 
-         $insert_product = $conn->prepare("INSERT INTO `products`(name, category, price, image) VALUES(?,?,?,?)");
-         $insert_product->execute([$name, $category, $price, $image]);
+         $insert_product = $conn->prepare("INSERT INTO `products`(name, category, price, sizes, image) VALUES(?,?,?,?,?)");
+         $insert_product->execute([$name, $category, $price, $sizes, $image]);
 
          $message[] = 'new product added!';
       }
@@ -86,7 +88,7 @@ if(isset($_GET['delete'])){
 
 <section class="add-products">
 
-   <form action="" method="POST" enctype="multipart/form-data">
+   <form action="products.php" method="POST" enctype="multipart/form-data">
       <h3>add product</h3>
       <input type="text" required placeholder="Enter Product Name" name="name" maxlength="100" class="box">
       <input type="number" min="0" max="9999999999" required placeholder="Enter Product Price" name="price" onkeypress="if(this.value.length == 10) return false;" class="box">
@@ -95,6 +97,12 @@ if(isset($_GET['delete'])){
          <option value="main dish">Drinks</option>
          <option value="fast food">Bread and Pastry</option>
          <option value="drinks">Pasta</option>
+      </select>
+       <select name="sizes" class="box" required>
+         <option value="" disabled selected>Select Sizes --</option>
+         <option value="Tall">Tall</option>
+         <option value="Venti">Venti</option>
+         <option value="N/A">N/A</option>
       </select>
       <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png, image/webp" required>
       <input type="submit" value="add product" name="add_product" class="btn">
@@ -119,7 +127,7 @@ if(isset($_GET['delete'])){
    <div class="box">
       <img src="../uploaded_img/<?= $fetch_products['image']; ?>" alt="">
       <div class="flex">
-         <div class="price"><span>$</span><?= $fetch_products['price']; ?><span>/-</span></div>
+         <div class="price"><span>₱</span><?= $fetch_products['price']; ?></div>
          <div class="category"><?= $fetch_products['category']; ?></div>
       </div>
       <div class="name"><?= $fetch_products['name']; ?></div>

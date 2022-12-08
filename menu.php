@@ -37,7 +37,6 @@ include 'components/add_cart.php';
 
 <div class="heading">
    <h3>our menu</h3>
-   <p><a href="home.php">home</a> <span> / menu</span></p>
 </div>
 
 <!-- menu section starts  -->
@@ -62,10 +61,10 @@ include 'components/add_cart.php';
          <a href="quick_view.php?pid=<?= $fetch_products['id']; ?>" class="fas fa-eye"></a>
          <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
          <img src="uploaded_img/<?= $fetch_products['image']; ?>" alt="">
-         <a href="category.php?category=<?= $fetch_products['category']; ?>" class="cat"><?= $fetch_products['category']; ?></a>
+         <!--<a href="category.php?category=<?= $fetch_products['category']; ?>" class="cat"><?= $fetch_products['category']; ?></a>-->
          <div class="name"><?= $fetch_products['name']; ?></div>
          <div class="flex">
-            <div class="price"><span>$</span><?= $fetch_products['price']; ?></div>
+            <div class="price"><span>₱</span><?= $fetch_products['price']; ?></div>
             <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2"">
          </div>
       </form>
