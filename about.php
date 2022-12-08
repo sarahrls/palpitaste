@@ -36,8 +36,12 @@ if(isset($_SESSION['user_id'])){
 <!-- header section ends -->
 
 <div class="heading">
+<<<<<<< Updated upstream
    <h3>about us</h3>
   
+=======
+   <h3>About Us</h3>
+>>>>>>> Stashed changes
 </div>
 
 <!-- about section starts  -->
