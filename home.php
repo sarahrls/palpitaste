@@ -45,7 +45,7 @@ include 'components/add_cart.php';
 
          <div class="swiper-slide slide">
             <div class="content">
-               <span>order online</span>
+               <span>Order Online</span>
                <h3>delicious pizza</h3>
                <a href="menu.html" class="btn">see menus</a>
             </div>
@@ -92,22 +92,22 @@ include 'components/add_cart.php';
 
       <a href="category.php?category=fast food" class="box">
          <img src="images/cat-1.png" alt="">
-         <h3>fast food</h3>
+         <h3>Coffee</h3>
       </a>
 
       <a href="category.php?category=main dish" class="box">
          <img src="images/cat-2.png" alt="">
-         <h3>main dishes</h3>
+         <h3>Frappes</h3>
       </a>
 
       <a href="category.php?category=drinks" class="box">
          <img src="images/cat-3.png" alt="">
-         <h3>drinks</h3>
+         <h3>Crepes/Pastry</h3>
       </a>
 
       <a href="category.php?category=desserts" class="box">
          <img src="images/cat-4.png" alt="">
-         <h3>desserts</h3>
+         <h3>Pasta</h3>
       </a>
 
    </div>
