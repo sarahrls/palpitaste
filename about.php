@@ -38,8 +38,8 @@ if(isset($_SESSION['user_id'])){
 <div class="heading">
 
 
-   <h3>About Us</h3>
-
+   <h3 class="heading"> About Palpitaste </h3>
+         <p> Our goal has always been to provide each customer with exactly that. With great tasting coffees from around the world from intense aromas to creamy textures we are here to show you that our coffee can cure all your tension. One sip at a time. At PALPITASTE, we provide you with delightfully delicious coffee which is prepared specially for each and every customer. Browse our collection and stop by to try them for yourself.</p>
 </div>
 
 <!-- about section starts  -->
@@ -49,13 +49,17 @@ if(isset($_SESSION['user_id'])){
    <div class="row">
 
       <div class="image">
-         <img src="images/about-img.svg" alt="">
+         <img src="images/coffee1.png" alt="">
       </div>
 
       <div class="content">
-         <h3>why choose us?</h3>
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, neque debitis incidunt qui ipsum sed doloremque a molestiae in veritatis ullam similique sunt aliquam dolores dolore? Quasi atque debitis nobis!</p>
-         <a href="menu.html" class="btn">our menu</a>
+    
+           <h3>Mission</h3>
+         <p>To bring back FILIPINO values by being an innovative coffee business model that is sustainable, honest, fair and passionate.</p>
+          
+        <h3>Vision</h3>
+         <p>To be the best Cafe chain by an offering a world class coffee experience at affordable prices.</p>
+         <a href="menu.php" class="btn">our menu</a>
       </div>
 
    </div>
@@ -68,26 +72,26 @@ if(isset($_SESSION['user_id'])){
 
 <section class="steps">
 
-   <h1 class="title">simple steps</h1>
+   <h1 class="title">Best Seller</h1>
 
    <div class="box-container">
 
       <div class="box">
-         <img src="images/step-1.png" alt="">
-         <h3>choose order</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
+         <img src="images/expresso.png" alt="">
+         <h3>Coffee</h3>
+         <p>The expresso is our best seller coffe, as of the taste and cream.</p>
       </div>
 
       <div class="box">
-         <img src="images/step-2.png" alt="">
-         <h3>fast delivery</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
+         <img src="images/dessert.png" alt="">
+         <h3>Dessert</h3>
+         <p>The frappe for the drinks is the best seller in our dessert category.</p>
       </div>
 
       <div class="box">
-         <img src="images/step-3.png" alt="">
-         <h3>enjoy food</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
+         <img src="images/pasta.png" alt="">
+         <h3>Food</h3>
+         <p>The italian version of our pasta is the best when it comes to the taste.</p>
       </div>
 
    </div>
@@ -100,92 +104,63 @@ if(isset($_SESSION['user_id'])){
 
 <section class="reviews">
 
-   <h1 class="title">customer's reivews</h1>
+   <h1 class="title">Team</h1>
 
    <div class="swiper reviews-slider">
 
       <div class="swiper-wrapper">
 
          <div class="swiper-slide slide">
-            <img src="images/pic-1.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
-            </div>
-            <h3>john deo</h3>
+        
+            <img src="images/jane.jpg" alt="">
+            <p> Name: Jane
+                <br> Age: 21 years old
+                <br> Position: Team Leader and Programmer
+                 </p>
+             
+         
+            <h3> Mary Jane Bayod</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/pic-2.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
-            </div>
-            <h3>john deo</h3>
+            <img src="images/irene.jpg" alt="">
+            <p> Name: Irene 
+                <br> Age: 22 Years old
+                <br> Position: Programmer </p>
+           
+            <h3>Irene Crampatanta</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/pic-3.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
-            </div>
-            <h3>john deo</h3>
+            <img src="images/mark.jpg" alt="">
+             <p> Name: Mark 
+                <br> Age: 22 Years old
+                <br> Position: Researcher </p>
+           
+            <h3> Mark Steven Flores</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/pic-4.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
-            </div>
-            <h3>john deo</h3>
+            <img src="images/tonet.jpg" alt="">
+             <p> Name: Tonet 
+                <br> Age: 22 Years old
+                <br> Position: Researcher 
+                </p>
+           
+            <h3>Ma.Antonette Mendiola</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/pic-5.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
-            </div>
-            <h3>john deo</h3>
-         </div>
-
-         <div class="swiper-slide slide">
-            <img src="images/pic-6.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
-            </div>
-            <h3>john deo</h3>
+            <img src="images/sarah.jpg" alt="">
+             <p> Name: Sarah 
+                <br> Age: 22 Years old
+                <br> Position: System Design and Programmer  </p>
+          
+            <h3>Sarah Rose Sison</h3>
          </div>
 
       </div>
-
+    
       <div class="swiper-pagination"></div>
 
    </div>

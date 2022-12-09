@@ -52,8 +52,8 @@ section{
    text-align: center;
    margin-bottom: 2.5rem;
    font-size: 4rem;
-   color:var(--black);
-   text-underline-offset: 1rem;
+   color:sandybrown;
+   text-underline-offset: 2rem;
 }
 
 .heading{
@@ -70,11 +70,16 @@ section{
    font-size: 5rem;
    color:black;
    text-transform: capitalize;
+    color: sandybrown;
+    min-height: 1rem;
 }
 
 .heading p{
-   font-size: 2.3rem;
+   font-size: 2.0rem;
    color:var(--light-color);
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .heading p a{
@@ -529,16 +534,17 @@ section{
 
 .about .row .content h3{
    font-size: 3rem;
-   color:var(--black);
+   color: sandybrown;
    text-transform: capitalize;
    margin-bottom: 1rem;
+    font-weight: bolder;
 }
 
 .about .row .content p{
    padding:1rem 0;
    line-height: 2;
    font-size: 1.6rem;
-   color:var(--light-color);
+   color:var(--black);
 }
 
 .steps .box-container{
@@ -567,11 +573,10 @@ section{
    color:var(--black);
    text-transform: capitalize;
 }
-
 .steps .box-container .box p{
    line-height: 2;
    font-size: 1.6rem;
-   color:var(--light-color);
+   color:var(--black);
 }
 
 .reviews .slide{
@@ -591,7 +596,7 @@ section{
    padding:1.5rem 0;
    line-height: 2;
    font-size: 1.6rem;
-   color:var(--light-color);
+   color:var(--black);
 }
 
 .reviews .slide .stars{
